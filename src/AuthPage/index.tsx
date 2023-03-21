@@ -1,6 +1,6 @@
 import { CSSProperties, useState } from "react";
 
-import valley from "../assets/valley.jpeg";
+import valley from "../assets/l.jpg";
 import SignUpForm from "./SignUpForm";
 import LogInForm from "./LogInForm";
 
@@ -15,7 +15,7 @@ const AuthPage = () => {
     <div className="background-image" style={backgroundImage}>
       <div className="background-gradient-dark">
         <div style={styles.formContainerStyle}>
-          <div style={styles.titleStyle}>Pretty</div>
+          <div style={styles.titleStyle}>KOME chating app</div>
 
           {hasAccount ? (
             <LogInForm onHasNoAccount={() => setHasAccount(false)} />

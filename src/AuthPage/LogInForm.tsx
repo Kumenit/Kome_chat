@@ -47,11 +47,13 @@ const LogInForm = (props: LogInFormProps) => {
             is_online: true,
           };
           setUser(user);
+          console.log(user.first_name);
+          console.log(user);
         }
       })
       .catch((e) => console.log("Error", e));
   };
-
+     
   return (
     <div>
       <div className="form-title">Welcome Back</div>

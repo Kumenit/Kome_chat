@@ -35,6 +35,8 @@ const MessageForm = (props: MessageFormProps) => {
   };
 
   return (
+    <div>
+      
     <form onSubmit={onSubmit} className="ce-custom-message-form">
       <input
         onChange={(e) => setText(e.target.value)}
@@ -47,6 +49,7 @@ const MessageForm = (props: MessageFormProps) => {
         <CaretUpFilled />
       </button>
     </form>
+    </div>
   );
 };
 

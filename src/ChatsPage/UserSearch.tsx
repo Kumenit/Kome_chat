@@ -99,9 +99,9 @@ const UserSearch = (props: CustomChatFormProps) => {
         onSearch={handleSearch}
         value={query}
       >
-        <Input.Search
+        <Input.Search className="search"
           size="large"
-          placeholder="Chats"
+          placeholder="Type here to search . . ."
           enterButton
           loading={loading}
           onChange={(e) => setQuery(e.target.value)}

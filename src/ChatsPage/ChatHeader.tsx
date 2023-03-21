@@ -99,7 +99,7 @@ const ChatHeader = (props: CustomChatHeaderProps) => {
           </div>
 
           <div className="ce-custom-header-icon-wrapper">
-            <form style={{ display: "inline-block" }}>
+            <form style={{ display: "inline-block" }} className="move">
               <label htmlFor="ce-files-picker">
                 {isFilePickerLoading ? (
                   <LoadingOutlined className="ce-custom-header-icon" />
