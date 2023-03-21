@@ -1,18 +1,12 @@
-# Pretty Chat React/Typescript
+# Kome chatting/Typescript
 
 This project is a pretty full-stack chat app built with React and Typesctipt.
 
 To learn how this project works, watch the following YouTube tutorial.
 
-## Setup
-
-Go to [chatengine.io](https://chatengine.io) and create your own project. There you will get a Project ID and Private Key which are needed for user signup and authentication.
 
 ### `.env.local`
 
-Create a `.env.local` file at the top-level of your project, and replace the UUIDs with your own Project ID and Private Key from [chatengine.io](https://chatengine.io).
-
-```
 REACT_APP_PROJECT_ID=12341234-1234-1234-1234-123412341234
 REACT_APP_PROJECT_KEY=abcdabcd-abcd-abcd-abcd-abcdabcdabcd
 ```
@@ -34,11 +28,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
