@@ -42,7 +42,7 @@ const Home1=()=>{
 		<h2 class="frame-4">you can</h2>
 		<h2 class="frame-5">
 			<span>CHAT,</span>
-			<span>COMMUNICAT </span>
+			<span>COMMUNICAT, </span>
 			<span>AND HAVE FUN.</span>
 		</h2>
 		<a class="sp-circle-link" href="https://github.com/Kumenit">by kome</a>
