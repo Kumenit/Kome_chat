@@ -1,6 +1,7 @@
 export const nowTimeStamp = () => {
-  return new Date()
-    .toISOString()
-    .replace("T", " ")
-    .replace("Z", `${Math.floor(Math.random() * 1000)}+00:00`);
+  var date=new Date();
+fetch('http://worldtimeapi.org/api/timezone/Africa/Nairobi')
+  .then(response => response.json())
+  .then(data => date=data.datetime);
+  return date.toLocaleString("sv-SE");
 };
