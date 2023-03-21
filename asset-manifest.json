@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kome_chat/static/css/main.fbadef5c.css",
-    "main.js": "/Kome_chat/static/js/main.f3ae7fa7.js",
+    "main.js": "/Kome_chat/static/js/main.c88a2484.js",
     "static/media/l.jpg": "/Kome_chat/static/media/l.01420625b877288a13da.jpg",
     "static/media/shoot.jpg": "/Kome_chat/static/media/shoot.f7c8c42b3c2575decb28.jpg",
     "static/media/VisbyRoundCF-Heavy.woff": "/Kome_chat/static/media/VisbyRoundCF-Heavy.5b14967687bb1ecf4295.woff",
@@ -9,10 +9,10 @@
     "static/media/VisbyRoundCF-DemiBold.woff": "/Kome_chat/static/media/VisbyRoundCF-DemiBold.ecce87927ba286ccd634.woff",
     "index.html": "/Kome_chat/index.html",
     "main.fbadef5c.css.map": "/Kome_chat/static/css/main.fbadef5c.css.map",
-    "main.f3ae7fa7.js.map": "/Kome_chat/static/js/main.f3ae7fa7.js.map"
+    "main.c88a2484.js.map": "/Kome_chat/static/js/main.c88a2484.js.map"
   },
   "entrypoints": [
     "static/css/main.fbadef5c.css",
-    "static/js/main.f3ae7fa7.js"
+    "static/js/main.c88a2484.js"
   ]
 }
