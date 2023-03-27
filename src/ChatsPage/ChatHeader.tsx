@@ -31,6 +31,7 @@ const ChatHeader = (props: CustomChatHeaderProps) => {
   // State
   const [isFilePickerLoading, setFilePickerLoading] = useState(false);
   const [isDeleteLoading, setDeleteLoading] = useState(false);
+  const [mydate,setdate]=useState(nowTimeStamp);
   // Hooks
   const isMobile: boolean = useIsMobile();
 
@@ -47,11 +48,21 @@ const ChatHeader = (props: CustomChatHeaderProps) => {
       "User-Name": props.username,
       "User-Secret": props.secret,
     };
+   //
+   console.log(mydate);
+  async function getCurrentDateTime() {
+    const response = await fetch('https://worldtimeapi.org/api/timezone/Africa/Nairobi');
+    const data = await response.json();
+    return data.datetime;
+  }
+  
+  getCurrentDateTime().then(dateTime => setdate(dateTime));
+  
 
     const formdata = new FormData();
     const filesArr = Array.from(e.target.files !== null ? e.target.files : []);
     filesArr.forEach((file) => formdata.append("attachments", file, file.name));
-    formdata.append("created", nowTimeStamp());
+    formdata.append("created", mydate);
     formdata.append("sender_username", props.username);
     formdata.append("custom_json", JSON.stringify({}));
 

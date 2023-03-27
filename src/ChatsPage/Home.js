@@ -19,7 +19,7 @@ const Home1=()=>{
 				</p>
     
 			<ul class="content__container__list">
-			<li class="content__container__list__item">users !</li>
+			<li class="content__container__list__item">Users !</li>
 			<li class="content__container__list__item">Enjoy !</li>
 			<li class="content__container__list__item">Kome !</li>
 			<li class="content__container__list__item">Chating</li>
@@ -37,12 +37,12 @@ const Home1=()=>{
 	<div class="sp-content">
 		<div class="sp-globe"></div>
 		<h2 class="frame-1">HI THERE</h2>
-		<h2 class="frame-2">AND WELCOM</h2>
+		<h2 class="frame-2">AND WELCOME</h2>
 		<h2 class="frame-3">TO KOME WHERE</h2>
 		<h2 class="frame-4">you can</h2>
 		<h2 class="frame-5">
 			<span>CHAT,</span>
-			<span>COMMUNICAT, </span>
+			<span>COMMUNICATE, </span>
 			<span>AND HAVE FUN.</span>
 		</h2>
 		<a class="sp-circle-link" href="https://github.com/Kumenit">by kome</a>

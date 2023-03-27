@@ -83,10 +83,9 @@ body {
 }
 @media (min-width: 1500px) {
     .move {
-      
-       position: relative;
+       position: absolute;
        top: 502px;
-       right:593px;
+       right:660px;
        z-index: 100;
     }
 }
